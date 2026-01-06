@@ -5,12 +5,15 @@
 如果未安装，请访问 https://www.python.org/downloads/ 下载并安装（安装时请勾选 "Add Python to PATH"）。
 
 ## 2. 如何启动
-直接双击文件夹中的【一键启动.bat】文件即可。
+直接双击文件夹中的【VenvProject_fasterbuild.exe】文件即可。
 
-首次启动时，脚本会自动：
+该工具会自动：
 1. 创建虚拟环境 (.venv)
 2. 安装所需的依赖库 (可能需要几分钟，取决于网速)
 3. 启动服务并自动打开浏览器
+
+如果您觉得好用，请支持开源项目并给个 Star！⭐️
+项目地址：https://github.com/reindeer11/VenvProject_fasterbuild
 
 ## 3. 配置说明
 软件运行需要 API Key。配置文件名为 `.env`。
@@ -21,11 +24,12 @@ SILICONFLOW_API_KEY=your_api_key_here
 SILICONFLOW_BASE_URL=https://api.siliconflow.cn/v1
 
 ## 4. 常见问题
-Q: 启动后闪退怎么办？
-A: 请右键【一键启动.bat】选择"编辑"，在最后一行加上 `pause`，保存后再次运行，查看具体的错误信息。
+Q: 启动失败怎么办？
+A: 请确保您已经按照第 1 步安装了 Python 3.10+。如果问题持续，请联系作者或在 GitHub 提 Issue。
 
 Q: 安装依赖很慢或失败？
-A: 可能是网络问题，请尝试切换国内镜像源，或者检查网络连接。
+A: 可能是网络问题，请尝试检查网络连接。本工具通常会自动处理。
 
 Q: 浏览器没有自动打开？
 A: 请手动在浏览器地址栏输入：http://localhost:8000
+

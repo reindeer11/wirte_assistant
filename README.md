@@ -58,7 +58,7 @@
 - 📏 **长短随心控**：从几百字的短文到 5000+ 字的超长深度好文，统统搞定！
 - 🔄 **拒绝 AI 味**：特调提示词，减少"然后"、"此外"等生硬连接词，过渡更自然。
 - 📥 **一键导出**：支持导出排版精美的 DOCX 文档，自动居中标题，首行缩进，拿来就能用！📑
-- ⚡️ **小白友好**：无需懂代码，双击一键启动！🖱️
+- ⚡️ **小白友好**：无需懂代码，一键启动！🖱️
 
 ---
 
@@ -69,14 +69,15 @@
 
 ### 2. 配置 API Key 🔑
 在项目根目录创建 `.env` 文件（或者直接修改现有的），填入你的 Key：
+硅基流动：[链接](https://www.python.org/downloads/)
 ```env
 SILICONFLOW_API_KEY=your_api_key_here
 SILICONFLOW_BASE_URL=https://api.siliconflow.cn/v1
 ```
 
-### 3. 一键起飞 ✈️
-不需要敲复杂的命令！
-👉 **双击文件夹中的 `一键启动.bat`**
+
+该工具会自动为你创建虚拟环境并安装依赖的脚本，将main.py放入到项目入口即可，随后启动这个脚本即可。如果你觉得好用，请给作者一个 **Star**！⭐️
+🔗 **工具开源地址**: [VenvProject_fasterbuild](https://github.com/reindeer11/VenvProject_fasterbuild)
 
 稍等片刻，浏览器会自动打开写作界面。✨
 
@@ -114,6 +115,8 @@ SILICONFLOW_BASE_URL=https://api.siliconflow.cn/v1
 ## 🤝 贡献与反馈 (Contribution)
 
 觉得好用请给个 Star！⭐️  
+🔗 **一键启动工具**: [VenvProject_fasterbuild](https://github.com/reindeer11/VenvProject_fasterbuild)
+
 有问题欢迎提 Issue 或者联系作者！
 
 By reindeer 🦌  
